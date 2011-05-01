@@ -1,5 +1,6 @@
 # Express Debug Toolbar
-	express-debug-toolbar provides an interactive way to debug your Express applications.
+
+express-debug-toolbar provides an interactive way to debug your Express applications.
 	
 ## Installation
 
@@ -9,7 +10,7 @@ npm:
 
 ## Usage
 
-    add interesting stuff here
+add interesting stuff here
 
 ## License
 
