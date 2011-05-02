@@ -4,22 +4,23 @@ express-debug-toolbar provides an interactive way to debug your Express applicat
 	
 ## Installation
 
-The Express Debug Toolbar is not in npm yet. In the meantime, you can clone this repository if you want to use this package.
+The Express Debug Toolbar is not at npm yet. In the meantime, you can clone this repository if you want to use this package.
 
 In the near future you will have to use npm:
 
 	$ npm install express-debug-toolbar
 
-## Usage
+## Usage note
                                        
-The Debug Toolbar will only show up if the mimetype of the response is text/html and contains the `</body>` tag. 
+The Debug Toolbar will only show up if the mimetype of the response is `text/html` and contains the `</body>` tag. 
 	
 ## Features
   
 Currently, the Express Debug Toolbar has the following panels:
 
-	* Express version
-	* HTTP Headers and appplication-specific information 
+* Express Version (contentless)
+* Application Information: node version, express version & used middleWares (named ones only)
+* HTTP Headers and appplication-specific information 
 
 ## License
 

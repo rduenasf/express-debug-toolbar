@@ -1,7 +1,8 @@
 var express = require('express')
+  , gzip = require('connect-gzip')
   , debugToolbar = require('../')
   , app = express.createServer();
-  
+
 app.use(debugToolbar.debugToolbar());
 
 app.set('views', __dirname + '/views');
