@@ -2,16 +2,14 @@
   "author": "Rodrigo Dueñas <rduenasf@gmail.com>",
   "name": "debugToolbar",
   "description": "A port of the django-debug-toolbar for Express.js",
-  "version": "0.0.0",
-  "repository": {
-    "url": ""
-  },
-  "directories": {
-    "lib": "."
-  },
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "version": "0.0.1",
+	"homepage": "http://rduenasf.github.com/express-debug-toolbar/",
+  "repository": "git://github.com/rduenasf/express-debug-toolbar.git",
+  "engines": { "node": ">= 0.4.1" },
+  "dependencies": {
+  	"express": ">= 2.0.0"
+	},
+  "main": "index",
+	"keywords": ["debug", "express", "toolbar"]
+	
 }

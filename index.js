@@ -1,1 +1,1 @@
-exports.debugToolbar = require('./lib/filter');
+exports.debugToolbar = require('./lib/debugToolbar');
