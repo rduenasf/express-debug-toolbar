@@ -1,0 +1,12 @@
+table
+	thead
+		tr
+			th Key
+			th Value
+	tbody
+		- var parityClass = "djDebugOdd";
+		- each header in headers  
+			tr(class=parityClass)
+				td=header.name
+				td=header.value
+			- parityClass = parityClass == "djDebugOdd" ? "djDebugEven" : "djDebugOdd";

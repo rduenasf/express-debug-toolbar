@@ -12,11 +12,12 @@ In the near future you will have to use npm:
 
 ## Usage
                                        
-The Debug Toolbar will only show up if the mimetype of the response is text/html and contains the </body> tag. 
+The Debug Toolbar will only show up if the mimetype of the response is text/html and contains the `</body>` tag. 
 	
 ## Features
   
 Currently, the Express Debug Toolbar has the following panels:
+
 	* Express version
 	* HTTP Headers and appplication-specific information 
 
@@ -24,7 +25,7 @@ Currently, the Express Debug Toolbar has the following panels:
 
 The MIT License
 
-Copyright (c) 2011 Rodrigo Dueñas <rduenasf@gmail.com>
+Copyright (c) 2011 Rodrigo Dueñas &lt;rduenasf@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
